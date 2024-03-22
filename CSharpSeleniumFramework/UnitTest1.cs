@@ -34,13 +34,6 @@ namespace CSharpSeleniumFramework
 
         }
 
-        [Test, Category("Smoke")]
-        public void LocatorIdentification()
-        {
-            driver.FindElement(By.Id("username")).SendKeys("rahulshettyacademy");
-            driver.FindElement(By.Id("password")).SendKeys("learning");
-        }
-
 
         public static TestCaseData[] testDatas =
         {
